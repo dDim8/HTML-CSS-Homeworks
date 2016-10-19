@@ -1,0 +1,80 @@
+<!Doctype html>
+
+<head>
+  <title> Form</title>
+  
+  <style>
+  .font_color {
+  color: red;
+  }
+  
+  label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 170px;
+    text-align: right;
+}
+  
+  input, .radio_btn_pos {
+  display: inline-block;
+  float: left;
+  }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <form>
+    
+      <label><span class="font_color">&#42;</span>Company: </label>
+      <input type="text" name="company"> <br/>
+      
+      <label><span class="font_color">&#42;</span>First Name: </label>
+      <input type="text" name="fname"> <br/>
+      
+      <label><span class="font_color">&#42;</span>Last Name: </label>
+      <input type="text" name="lname"> <br/>
+      
+      <label><span class="font_color">&#42;</span>Email:</label>
+      <input type="email" name="email"> <br/>
+      
+      <label><span class="font_color">&#42;</span>Title: </label>
+      <input type="text" name="title"> <br/>
+      
+      <label><span class="font_color">&#42;</span>Phone: </label>
+      <input type="text" name="phone"> <br/>
+      
+      <label><span class="font_color">&#42;</span>Cancel Registration: </label>
+      <input type="checkbox" name="" value="cancelreg" checked > <br/><br/>
+      
+      <label><span class="font_color">&#42;</span>252 Training Session 2010: </label>
+      <select>
+      <option value="defaut"> --Select a date--</option>
+      <option value="date1"> 12.12.2010</option>
+      <option value="date2"> 12.06.2010</option>
+      <option value="date3"> 12.01.2010</option>
+      </select>
+      <br/>
+      <label><span class="font_color">&#42;</span>Job Function: </label> </br>
+      <input type="radio" name="jfunc" value="campman"> Campaign Manager</br>
+      <input type="radio" name="jfunc" value="cmradmin"> CMR Administrator </br>
+      <input type="radio" name="jfunc" value="emaildepl"> Email Deployment </br>
+      <input type="radio" name="jfunc" value="partner"> Partner </br>
+      <input type="radio" name="jfunc" value="employee"> Employee </br>
+      <br/>
+      
+      <label>Dietary Requirements: </label>
+      <input type="text" name="dietreq"> <br/></br>
+      <label>Expections?: </label>
+      <input type="textarea" name="expect"> </br></br>
+      
+      <input type="submit" name="okbtn" value="Submit">
+      
+    </form>
+  </div>
+
+</body>
+
+</html>
