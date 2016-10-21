@@ -1,0 +1,61 @@
+body {
+
+}
+
+.white_frame{
+ margin: 10px;
+}
+
+.gray_frame {
+  padding: 10px;
+  background-color: rgb(186, 186, 186);
+  width: 400px;
+}
+
+.pay-btn, .cancel-btn{
+  border: 1px solid  rgb(237, 138, 46);
+  border-radius: 2px;
+  padding: 5px;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: rgb(201, 70, 47);
+  float: left;
+}
+
+.pay-btn {
+    background-color: rgb(237, 138, 46);
+    float: right;
+    width: 100px;
+}
+
+.div-labels {
+  padding: 5px;
+}
+
+.div-labels span {
+padding-left: 15px;
+font-size: 15px;
+color: gray;
+}
+
+.card-numb {
+  margin-bottom: 10px;
+}
+
+.card-info {
+  display: inline-block;
+}
+
+.card-info input {
+  width: 60px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.quest-checkbox {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
